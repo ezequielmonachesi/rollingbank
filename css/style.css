@@ -12,3 +12,12 @@ body{
 footer ul {
     list-style-type: none;
   }
+.accordion-button::after {
+    background-image: none;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: none;
+}
+.accordion{
+    --bs-accordion-btn-focus-box-shadow: none;
+}
