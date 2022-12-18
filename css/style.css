@@ -21,3 +21,6 @@ footer ul {
 .accordion{
     --bs-accordion-btn-focus-box-shadow: none;
 }
+.marginNav{
+    margin-top: 56px;
+}
