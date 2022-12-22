@@ -6,9 +6,10 @@ body {
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 main {
-  min-height: 100vh;
+  flex-grow: 0;
 }
 .rollingBank {
   font-family: "Martian Mono", monospace;
@@ -30,27 +31,19 @@ footer ul {
 }
 
 @media all and (max-width: 767px) {
-  main {
-    min-height: 70vh;
-  }
   .banner {
     height: 350px;
     object-fit: cover;
   }
 }
 @media all and (min-width: 768px) and (max-width: 991px) {
-  main {
-    min-height: 70vh;
-  }
+  
   .banner {
     height: 400px;
     object-fit: cover;
   }
 }
 @media all and (min-width: 992px) {
-  main {
-    min-height: 70vh;
-  }
   .banner {
     height: 400px;
     object-fit: cover;
