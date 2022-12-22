@@ -30,6 +30,9 @@ footer ul {
 }
 
 @media all and (max-width: 767px) {
+  main {
+    min-height: 70vh;
+  }
   .banner {
     height: 350px;
     object-fit: cover;
@@ -37,19 +40,19 @@ footer ul {
 }
 @media all and (min-width: 768px) and (max-width: 991px) {
   main {
-  min-height: 70vh;
+    min-height: 70vh;
   }
   .banner {
     height: 400px;
     object-fit: cover;
   }
 }
-@media all and (max-width: 767px) {
+@media all and (min-width: 992px) {
   main {
-  min-height: 70vh;
+    min-height: 70vh;
   }
   .banner {
-    height: 300px;
+    height: 400px;
     object-fit: cover;
   }
 }
